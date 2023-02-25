@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Gabriel"
+  },
+  "text": {
+    "more": "Centralité (Eigenvector) : une série est considérée comme plus centrale quand elle est liée à d'autres séries qui sont elles-mêmes centrales. Si vous connaissez le Page Rank de Google, c'est la même idée. <br/> <br/> Communauté (clustering de Louvain) : les communautés représentent des sous réseaux qui sont plus denses en leur sein (plus de liens entre les nœuds de ce sous réseau) qu'entre eux.",
+    "intro": "Deux séries sont liées lorsqu'elles figurent dans le même top 10. Plus le lien est épais, plus elles ont été mentionnées conjointement dans des tops.",
+    "title": "Les carte des goûts sériels de Top Schlag"
+  },
+  "legend": {
+    "edgeLabel": "Mention dans le même top 10",
+    "colorLabel": "Communautés",
+    "nodeLabel": "Série"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 16
+    },
+    "graphProperties": {
+      "maxEdgeSize": 8,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 15
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
